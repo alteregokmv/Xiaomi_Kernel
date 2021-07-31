@@ -77,12 +77,12 @@
 
 		qcom,chipid = <0x06040000>;
 
-		qcom,initial-pwrlevel = <5>;
+		qcom,initial-pwrlevel = <6>;
 
 		qcom,gpu-quirk-secvid-set-once;
 		qcom,gpu-quirk-cx-gdsc;
 
-		qcom,idle-timeout = <58>; //msecs
+		qcom,idle-timeout = <98>; //msecs
 		qcom,no-nap;
 
 		qcom,highest-bank-bit = <15>;
