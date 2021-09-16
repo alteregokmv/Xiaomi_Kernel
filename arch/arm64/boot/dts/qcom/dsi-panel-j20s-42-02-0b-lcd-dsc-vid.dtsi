@@ -54,7 +54,7 @@
 		qcom,mdss-dsi-panel-blackness-level = <3230>;
 
 		qcom,esd-err-irq-gpio = <&tlmm 0x05 0x2002>;
-		qcom,mdss-dsi-qsync-min-refresh-rate = <60>;
+		/* qcom,mdss-dsi-qsync-min-refresh-rate = <60>; */
 		qcom,mdss-dsi-pan-enable-dynamic-fps;
 		qcom,mdss-dsi-pan-fps-update =
 			"dfps_immediate_porch_mode_vfp";
